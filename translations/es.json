@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "location": "Ubicación",
+    "features": "Características",
+    "floor_plans": "Planos",
+    "gallery": "Galería",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "CASA DE CAMPO — PORTOL",
+    "tagline": "una finca mallorquina arraigada en la tierra y la luz"
+  },
+  "sections": {
+    "location": "UBICACIÓN",
+    "features": "CARACTERÍSTICAS",
+    "floor_plans": "PLANOS",
+    "gallery": "GALERÍA",
+    "contact": "CONTACTO"
+  },
+  "location": {
+    "copy_1": "Portol se encuentra en el tranquilo centro de Marratxí, un municipio en el límite norte de Palma conocido desde hace tiempo por su tradición alfarera y su ritmo pausado. El pueblo es residencial sin ser suburbano, asentado en un paisaje de colinas suaves, almendros y muros de piedra seca que se abre a amplias vistas de la Serra de Tramuntana al oeste y el mar al sur.",
+    "copy_2": "Desde la propiedad, el centro de Palma está a quince minutos en coche y el aeropuerto a veinte. Los pueblos cercanos de Santa Maria del Camí, Consell y Binissalem se encuentran a lo largo de una ruta bordeada de bodegas y mercados de fin de semana. Colegios, supermercados y servicios médicos están dentro del propio Marratxí. Es el tipo de ubicación que se siente genuinamente rural y permanece conectada sin esfuerzo con la capital de la isla."
+  },
+  "features": {
+    "intro": "Construida en el estilo clásico mallorquín con fachada de piedra de Marés, vigas de madera vistas y una atmosférica estufa de leña, la casa abarca 275 m² distribuidos en dos plantas. La generosa parcela de más de 6 800 m² incluye árboles frutales, una pérgola con zona de barbacoa, una caseta de jardín independiente y amplias vistas desde una terraza de 70 m² que abarca las montañas y, en días despejados, el mar.",
+    "label": {
+      "plot": "Parcela",
+      "built_area": "Superficie construida",
+      "bedrooms": "Dormitorios",
+      "bathrooms": "Baños",
+      "terrace": "Terraza",
+      "style": "Estilo",
+      "heating": "Calefacción",
+      "garden": "Jardín",
+      "garage": "Garaje",
+      "legal": "Situación legal",
+      "price": "Precio"
+    },
+    "value": {
+      "style": "Finca tradicional mallorquina",
+      "heating": "Eléctrica + estufa de leña",
+      "garden": "Privado — frutales, pérgola",
+      "garage": "Cerrado, 1 coche + almacén",
+      "legal": "Cédula + cert. urbanístico"
+    }
+  },
+  "floorplans": {
+    "plan_1": "Plano 1",
+    "plan_2": "Plano 2",
+    "plot": "Vista de la parcela",
+    "plot_label": "Parcela:",
+    "built_area_label": "Superficie construida:",
+    "parking_label": "Aparcamiento:",
+    "parking_value": "Acceso privado + 2 plazas cubiertas"
+  },
+  "contact": {
+    "intro": "Para más información o para concertar una visita privada, utilice el formulario a continuación. Todas las consultas son atendidas personalmente por Claudia Zivko.",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "send": "Enviar consulta",
+    "success": "Gracias. Claudia se pondrá en contacto en breve."
+  }
+}

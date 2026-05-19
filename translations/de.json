@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "location": "Lage",
+    "features": "Merkmale",
+    "floor_plans": "Grundrisse",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "LANDHAUS — PORTOL",
+    "tagline": "eine mallorquinische Finca verwurzelt in Land und Licht"
+  },
+  "sections": {
+    "location": "LAGE",
+    "features": "MERKMALE",
+    "floor_plans": "GRUNDRISSE",
+    "gallery": "GALERIE",
+    "contact": "KONTAKT"
+  },
+  "location": {
+    "copy_1": "Portol liegt im ruhigen Zentrum von Marratxí, einer Gemeinde am nördlichen Rand von Palma, die seit langem für ihre Töpfertradition und ihr gemütliches Tempo bekannt ist. Das Dorf ist wohnlich, ohne vorstädtisch zu sein, eingebettet in eine Landschaft aus sanften Hügeln, Mandelbäumen und Trockensteinmauern, die sich zu weiten Blicken auf die Serra de Tramuntana im Westen und das Meer im Süden öffnet.",
+    "copy_2": "Von der Immobilie aus ist das Zentrum von Palma in fünfzehn Autominuten erreichbar, der Flughafen in zwanzig. Die nahe gelegenen Orte Santa Maria del Camí, Consell und Binissalem liegen an einer Route, die von Weingütern und Wochenmärkten gesäumt ist. Schulen, Supermärkte und medizinische Einrichtungen befinden sich in Marratxí selbst. Eine Lage, die sich wirklich ländlich anfühlt und dennoch mühelos mit der Inselhauptstadt verbunden bleibt."
+  },
+  "features": {
+    "intro": "Im klassisch mallorquinischen Stil mit einer Fassade aus Marés-Stein, freiliegenden Holzbalken und einem stimmungsvollen Holzofen erbaut, umfasst das Haus 275 m² auf zwei Etagen. Das großzügige Grundstück von über 6 800 m² umfasst Obstbäume, eine Pergola mit Grillbereich, ein separates Gartenhaus und weitläufige Ausblicke von einer 70 m² großen Terrasse auf die Berge und, an klaren Tagen, das Meer.",
+    "label": {
+      "plot": "Grundstück",
+      "built_area": "Bebaute Fläche",
+      "bedrooms": "Schlafzimmer",
+      "bathrooms": "Bäder",
+      "terrace": "Terrasse",
+      "style": "Stil",
+      "heating": "Heizung",
+      "garden": "Garten",
+      "garage": "Garage",
+      "legal": "Rechtsstatus",
+      "price": "Preis"
+    },
+    "value": {
+      "style": "Traditionelle mallorquinische Finca",
+      "heating": "Elektrisch + Holzofen",
+      "garden": "Privat — Obstbäume, Pergola",
+      "garage": "Geschlossen, 1 Auto + Abstellraum",
+      "legal": "Cédula + Stadtplanungszertifikat"
+    }
+  },
+  "floorplans": {
+    "plan_1": "Grundriss 1",
+    "plan_2": "Grundriss 2",
+    "plot": "Grundstücksübersicht",
+    "plot_label": "Grundstück:",
+    "built_area_label": "Bebaute Fläche:",
+    "parking_label": "Parkplätze:",
+    "parking_value": "Private Zufahrt + 2 überdachte Stellplätze"
+  },
+  "contact": {
+    "intro": "Für weitere Informationen oder um eine private Besichtigung zu vereinbaren, nutzen Sie bitte das untenstehende Formular. Alle Anfragen werden persönlich von Claudia Zivko bearbeitet.",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "send": "Anfrage senden",
+    "success": "Vielen Dank. Claudia wird sich in Kürze bei Ihnen melden."
+  }
+}

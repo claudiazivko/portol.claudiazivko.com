@@ -1,0 +1,264 @@
+/* ============================================================
+   Claudia Zivko Agency — Colors & Type
+   ============================================================
+   A small, sober, earthy palette inspired by Mallorcan
+   terracotta, limestone, and olive-grove neutrals. Typography
+   pairs Raleway (titles, open-tracked, thin weights) with
+   Noto Sans (body, humanist, comfortable at small sizes).
+   The script "Agency" wordmark uses Resonant Chilliner Script.
+   ============================================================ */
+
+/* ---------- Fonts ---------- */
+
+@font-face {
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("fonts/Raleway-Italic-VariableFont_wght.ttf") format("truetype-variations");
+}
+
+/* Raleway upright loaded from Google Fonts — user did not supply upright variable;
+   substitute flagged in README. Swap locally if/when a Raleway.ttf is added. */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&family=Noto+Sans:wght@300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Chilliner";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/ResonantChillinerScript.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Futura CZ";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("fonts/FuturaCyrillicLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura CZ";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/FuturaCyrillicBook.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura CZ";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("fonts/FuturaCyrillicMedium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura CZ";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/FuturaCyrillicDemi.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura CZ";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/FuturaCyrillicBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura CZ";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("fonts/FuturaCyrillicExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura CZ";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("fonts/FuturaCyrillicHeavy.ttf") format("truetype");
+}
+
+/* ---------- Design Tokens ---------- */
+
+:root {
+  /* ——— Typography families ——— */
+  --font-display: "Raleway", "Noto Sans", system-ui, sans-serif;
+  --font-body: "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-script: "Chilliner", "Pinyon Script", cursive;
+  --font-logo: "Futura CZ", "Futura", "Avenir", sans-serif;
+
+  /* ——— Earthy brand palette ——— */
+  /* Primary neutrals — warm limestone & clay */
+  --cream-50:  #FAF7F2;   /* page background */
+  --cream-100: #F3EDE4;   /* soft fill */
+  --cream-200: #E9E1D4;   /* raised surface */
+  --sand-300:  #D6C9B4;   /* divider / muted fill */
+  --sand-400:  #B8A78C;   /* mid-tone, iconography */
+
+  /* Earth / warm ——— terracotta & olive */
+  --terracotta-500: #B5714C;   /* warm accent (Mallorcan roof tile) */
+  --terracotta-600: #8F563A;   /* accent hover / strong */
+  --clay-400:       #C99477;   /* soft warm */
+  --olive-500:      #7A7A55;   /* deep olive-leaf */
+  --olive-700:      #4A4B36;   /* muted, for secondary text on cream */
+
+  /* Ink / dark neutrals */
+  --ink-900: #1F1C18;   /* near-black, warm */
+  --ink-800: #3A3632;
+  --ink-700: #55504A;
+  --ink-500: #827C74;   /* muted body */
+  --ink-300: #B6B0A6;   /* captions */
+
+  /* Semantic (sober, earthy) */
+  --success: #6F7F4F;   /* olive success */
+  --warning: #C7934A;   /* amber clay */
+  --danger:  #A34C34;   /* burnt sienna */
+  --info:    #6E8697;   /* sea-slate */
+
+  /* ——— Semantic roles ——— */
+  --bg-page: var(--cream-50);
+  --bg-surface: #FFFFFF;
+  --bg-soft: var(--cream-100);
+  --bg-raised: var(--cream-200);
+  --bg-dark: var(--ink-900);
+
+  --fg-1: var(--ink-900);         /* strongest */
+  --fg-2: var(--ink-700);         /* body */
+  --fg-3: var(--ink-500);         /* muted */
+  --fg-4: var(--ink-300);         /* faint, meta, captions */
+  --fg-on-dark: var(--cream-50);
+
+  --accent: var(--terracotta-500);
+  --accent-strong: var(--terracotta-600);
+  --accent-soft: var(--clay-400);
+
+  --line-1: rgba(31, 28, 24, 0.10);   /* hairline on cream */
+  --line-2: rgba(31, 28, 24, 0.20);
+  --line-strong: var(--ink-900);
+
+  /* ——— Type scale (A4 print & responsive screen) ——— */
+  --fs-display: clamp(44px, 7vw, 72px);
+  --fs-h1: clamp(34px, 5vw, 48px);     /* ENTRANCE, KITCHEN, etc. — tracked caps */
+  --fs-h2: clamp(26px, 3.5vw, 34px);   /* FEATURES */
+  --fs-h3: clamp(20px, 2.4vw, 24px);
+  --fs-lead: 18px;
+  --fs-body: 14px;
+  --fs-small: 12px;
+  --fs-caption: 10.5px;
+
+  --lh-tight: 1.1;
+  --lh-snug: 1.25;
+  --lh-normal: 1.5;
+  --lh-loose: 1.7;
+
+  --tracking-caps: 0.12em;   /* titles like "ENTRANCE" */
+  --tracking-wide: 0.06em;   /* small caps, labels */
+  --tracking-normal: 0;
+
+  /* ——— Spacing (based on 4) ——— */
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+
+  /* A4 page & margins */
+  --a4-w: 210mm;
+  --a4-h: 297mm;
+  --page-margin: 18mm;
+  --page-gutter: 6mm;
+
+  /* ——— Radii ——— */
+  --radius-0: 0;
+  --radius-1: 2px;
+  --radius-2: 4px;      /* default for inputs */
+  --radius-3: 8px;      /* cards on screen */
+  --radius-pill: 999px;
+
+  /* Cards in the exposé use SHARP corners; keep 0 as default-print. */
+  --radius-photo: 0;
+
+  /* ——— Shadows (whisper only — print-friendly brand is shadow-less) ——— */
+  --shadow-0: none;
+  --shadow-1: 0 1px 2px rgba(31, 28, 24, 0.05);
+  --shadow-2: 0 4px 16px rgba(31, 28, 24, 0.08);
+  --shadow-3: 0 12px 32px rgba(31, 28, 24, 0.12);
+}
+
+/* ---------- Semantic element styles ---------- */
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--bg-page);
+  color: var(--fg-2);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-normal);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: var(--fg-1);
+  margin: 0;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  line-height: var(--lh-tight);
+}
+h2 {
+  font-size: var(--fs-h2);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  line-height: var(--lh-tight);
+}
+h3 {
+  font-size: var(--fs-h3);
+  letter-spacing: var(--tracking-wide);
+  line-height: var(--lh-snug);
+}
+
+p {
+  margin: 0 0 var(--space-4);
+  color: var(--fg-2);
+  text-wrap: pretty;
+}
+
+strong, b {
+  font-weight: 600;
+  color: var(--fg-1);
+}
+
+small, .caption {
+  font-size: var(--fs-caption);
+  color: var(--fg-3);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}
+
+.script {
+  font-family: var(--font-script);
+  font-weight: 400;
+}
+
+/* Utility: the canonical footer rule */
+.rule {
+  height: 1px;
+  background: var(--line-1);
+  border: 0;
+}

@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "location": "Situation",
+    "features": "Caractéristiques",
+    "floor_plans": "Plans",
+    "gallery": "Galerie",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "MAISON DE CAMPAGNE — PORTOL",
+    "tagline": "une finca majorquine enracinée dans la terre et la lumière"
+  },
+  "sections": {
+    "location": "SITUATION",
+    "features": "CARACTÉRISTIQUES",
+    "floor_plans": "PLANS",
+    "gallery": "GALERIE",
+    "contact": "CONTACT"
+  },
+  "location": {
+    "copy_1": "Portol se trouve au cœur tranquille de Marratxí, une commune située en bordure nord de Palma, connue depuis longtemps pour sa tradition potière et son rythme apaisé. Le village est résidentiel sans être banlieusard, ancré dans un paysage de collines douces, d'amandiers et de murs de pierre sèche qui s'ouvre sur de larges vues vers la Serra de Tramuntana à l'ouest et la mer au sud.",
+    "copy_2": "Depuis la propriété, le centre de Palma est à quinze minutes en voiture, l'aéroport à vingt. Les villages proches de Santa Maria del Camí, Consell et Binissalem s'égrènent le long d'une route bordée de domaines viticoles et de marchés du week-end. Écoles, supermarchés et services médicaux se trouvent au sein même de Marratxí. C'est le type de situation qui se vit comme véritablement rurale tout en restant connectée sans effort à la capitale de l'île."
+  },
+  "features": {
+    "intro": "Construite dans le style classique majorquin avec une façade en pierre de Marés, des poutres apparentes et un poêle à bois atmosphérique, la maison couvre 275 m² sur deux niveaux. Le généreux terrain de plus de 6 800 m² comprend des arbres fruitiers, une pergola avec coin barbecue, une maison de jardin indépendante et des vues panoramiques depuis une terrasse de 70 m² embrassant les montagnes et, par temps clair, la mer.",
+    "label": {
+      "plot": "Terrain",
+      "built_area": "Surface construite",
+      "bedrooms": "Chambres",
+      "bathrooms": "Salles de bain",
+      "terrace": "Terrasse",
+      "style": "Style",
+      "heating": "Chauffage",
+      "garden": "Jardin",
+      "garage": "Garage",
+      "legal": "Situation juridique",
+      "price": "Prix"
+    },
+    "value": {
+      "style": "Finca traditionnelle majorquine",
+      "heating": "Électrique + poêle à bois",
+      "garden": "Privé — fruitiers, pergola",
+      "garage": "Fermé, 1 voiture + rangement",
+      "legal": "Cédula + cert. urbanisme"
+    }
+  },
+  "floorplans": {
+    "plan_1": "Plan 1",
+    "plan_2": "Plan 2",
+    "plot": "Vue du terrain",
+    "plot_label": "Terrain :",
+    "built_area_label": "Surface construite :",
+    "parking_label": "Stationnement :",
+    "parking_value": "Accès privé + 2 places couvertes"
+  },
+  "contact": {
+    "intro": "Pour de plus amples informations ou pour organiser une visite privée, veuillez utiliser le formulaire ci-dessous. Toutes les demandes sont traitées personnellement par Claudia Zivko.",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer la demande",
+    "success": "Merci. Claudia vous recontactera sous peu."
+  }
+}

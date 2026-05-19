@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "location": "Location",
+    "features": "Features",
+    "floor_plans": "Floor Plans",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "COUNTRY HOUSE — PORTOL",
+    "tagline": "a Mallorcan finca rooted in land and light"
+  },
+  "sections": {
+    "location": "LOCATION",
+    "features": "FEATURES",
+    "floor_plans": "FLOOR PLANS",
+    "gallery": "GALLERY",
+    "contact": "CONTACT"
+  },
+  "location": {
+    "copy_1": "Portol sits at the quiet centre of Marratxi, a municipality on the northern fringe of Palma that has long been known for its pottery tradition and its unhurried pace. The village is residential without being suburban, grounded in a landscape of low hills, almond groves and dry-stone walls that opens to wide views of the Tramuntana range to the west and the sea to the south.",
+    "copy_2": "From the property, the centre of Palma is a fifteen-minute drive, the airport twenty. The nearby towns of Santa Maria del Cami, Consell and Binissalem sit along a route lined with wineries and weekend markets. Schools, supermarkets and medical services are within Marratxi itself. It is the kind of location that feels genuinely rural yet remains effortlessly connected to the island's capital."
+  },
+  "features": {
+    "intro": "Built in classic Mallorcan style with a stone facade of piedra de Mares, exposed wooden beams and an atmospheric wood stove, the house covers 275 m² across two floors. The generous plot of over 6 800 m² includes fruit trees, a pergola with barbecue area, a separate garden house and sweeping views from a 70 m² terrace that takes in the mountains and, on clear days, the sea.",
+    "label": {
+      "plot": "Plot",
+      "built_area": "Constructed area",
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "terrace": "Terrace",
+      "style": "Style",
+      "heating": "Heating",
+      "garden": "Garden",
+      "garage": "Garage",
+      "legal": "Legal status",
+      "price": "Price"
+    },
+    "value": {
+      "style": "Traditional Mallorcan finca",
+      "heating": "Electric + wood stove",
+      "garden": "Private — fruit trees, pergola",
+      "garage": "Closed, 1 car + storage",
+      "legal": "Cedula + urban planning cert."
+    }
+  },
+  "floorplans": {
+    "plan_1": "Floor Plan 1",
+    "plan_2": "Floor Plan 2",
+    "plot": "Plot Overview",
+    "plot_label": "Plot:",
+    "built_area_label": "Constructed area:",
+    "parking_label": "Parking:",
+    "parking_value": "Private driveway + 2 covered spaces"
+  },
+  "contact": {
+    "intro": "For further information or to arrange a private viewing, please use the form below. All enquiries are handled personally by Claudia Zivko.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send enquiry",
+    "success": "Thank you. Claudia will be in touch shortly."
+  }
+}

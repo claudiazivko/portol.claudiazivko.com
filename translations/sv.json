@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "location": "Läge",
+    "features": "Egenskaper",
+    "floor_plans": "Planritningar",
+    "gallery": "Galleri",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "LANTLIGT HUS — PORTOL",
+    "tagline": "en mallorkinsk finca rotad i mark och ljus"
+  },
+  "sections": {
+    "location": "LÄGE",
+    "features": "EGENSKAPER",
+    "floor_plans": "PLANRITNINGAR",
+    "gallery": "GALLERI",
+    "contact": "KONTAKT"
+  },
+  "location": {
+    "copy_1": "Portol ligger i det lugna centrumet av Marratxí, en kommun i utkanten av Palma som länge har varit känd för sin krukmakartradition och sitt avslappnade tempo. Byn är bostadsområde utan att vara förort, förankrad i ett landskap av låga kullar, mandelträdsodlingar och torrmurar som öppnar sig mot vida vyer över Serra de Tramuntana i väst och havet i söder.",
+    "copy_2": "Från fastigheten är det femton minuters bilresa till Palmas centrum och tjugo till flygplatsen. De närliggande orterna Santa Maria del Camí, Consell och Binissalem ligger längs en väg kantad av vingårdar och helgmarknader. Skolor, matbutiker och sjukvård finns i Marratxí. Det är den typ av läge som känns genuint lantligt men som ansträngningslöst förblir kopplat till öns huvudstad."
+  },
+  "features": {
+    "intro": "Byggt i klassisk mallorkinsk stil med en fasad av Marés-sten, synliga träbjälklag och en stämningsfull vedspis, omfattar huset 275 m² över två våningar. Den generösa tomten på över 6 800 m² inkluderar fruktträd, en pergola med grillområde, ett separat trädgårdshus och svepande utsikt från en 70 m² terrass över bergen och, på klara dagar, havet.",
+    "label": {
+      "plot": "Tomt",
+      "built_area": "Boarea",
+      "bedrooms": "Sovrum",
+      "bathrooms": "Badrum",
+      "terrace": "Terrass",
+      "style": "Stil",
+      "heating": "Uppvärmning",
+      "garden": "Trädgård",
+      "garage": "Garage",
+      "legal": "Juridisk status",
+      "price": "Pris"
+    },
+    "value": {
+      "style": "Traditionell mallorkinsk finca",
+      "heating": "El + vedspis",
+      "garden": "Privat — fruktträd, pergola",
+      "garage": "Stängd, 1 bil + förråd",
+      "legal": "Cédula + stadsplaneringsintyg"
+    }
+  },
+  "floorplans": {
+    "plan_1": "Planritning 1",
+    "plan_2": "Planritning 2",
+    "plot": "Tomtöversikt",
+    "plot_label": "Tomt:",
+    "built_area_label": "Boarea:",
+    "parking_label": "Parkering:",
+    "parking_value": "Privat infart + 2 täckta platser"
+  },
+  "contact": {
+    "intro": "För mer information eller för att boka en privat visning, använd formuläret nedan. Alla förfrågningar hanteras personligen av Claudia Zivko.",
+    "name": "Namn",
+    "email": "E-post",
+    "message": "Meddelande",
+    "send": "Skicka förfrågan",
+    "success": "Tack. Claudia återkommer inom kort."
+  }
+}
