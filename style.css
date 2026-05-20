@@ -176,7 +176,8 @@ a { color: inherit; text-decoration: none; }
 
 @media (max-width: 768px) {
   .hero-bg-desktop { display: none; }
-  .hero-bg-mobile { display: block; }
+  .hero-bg-mobile { display: block; object-position: center 20%; }
+  .hero { padding-bottom: clamp(60px, 12vh, 100px); }
 }
 
 .hero-overlay {
