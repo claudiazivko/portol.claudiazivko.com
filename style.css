@@ -308,6 +308,7 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 768px) {
   .location-top {
     grid-template-columns: 1fr;
+    gap: var(--space-6);
   }
   .landscape-img { height: 260px; }
 }
