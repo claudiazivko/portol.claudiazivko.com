@@ -80,6 +80,12 @@ if (galleryGrid) {
   });
 }
 
+// Map lightbox
+const mapImg = document.querySelector('.map-img[data-full]');
+if (mapImg) {
+  mapImg.addEventListener('click', () => openLightbox([mapImg], 0));
+}
+
 // Contact form — Formspree async submit
 const contactForm = document.getElementById('contact-form');
 const contactSuccess = document.getElementById('contact-success');
