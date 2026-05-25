@@ -22,7 +22,7 @@
     "copy_2": "Från fastigheten är det femton minuters bilresa till Palmas centrum och tjugo till flygplatsen. De närliggande orterna Santa Maria del Camí, Consell och Binissalem ligger längs en väg kantad av vingårdar och helgmarknader. Skolor, matbutiker och sjukvård finns i Marratxí. Det är den typ av läge som känns genuint lantligt men som ansträngningslöst förblir kopplat till öns huvudstad."
   },
   "features": {
-    "intro": "Byggt i klassisk mallorkinsk stil med en fasad av Marés-sten, synliga träbjälklag och en stämningsfull vedspis, omfattar huset 275 m² över två våningar. Den generösa tomten på över 6 800 m² inkluderar fruktträd, en pergola med grillområde, ett separat trädgårdshus och svepande utsikt från en 70 m² terrass över bergen och, på klara dagar, havet.",
+    "intro": "Byggt i klassisk mallorkinsk stil med en fasad av Marés-sten, synliga träbjälklag och en stämningsfull vedspis, omfattar huset 275 m² över två våningar. Den generösa tomten på över 6 800 m² inkluderar fruktträd, en pergola med grillområde och svepande utsikt från en 70 m² terrass över bergen och, på klara dagar, havet.",
     "label": {
       "plot": "Tomt",
       "built_area": "Boarea",
@@ -30,7 +30,6 @@
       "bathrooms": "Badrum",
       "terrace": "Terrass",
       "style": "Stil",
-      "heating": "Uppvärmning",
       "garden": "Trädgård",
       "garage": "Garage",
       "legal": "Juridisk status",
@@ -38,7 +37,6 @@
     },
     "value": {
       "style": "Traditionell mallorkinsk finca",
-      "heating": "El + vedspis",
       "garden": "Privat — fruktträd, pergola",
       "garage": "Stängd, 1 bil + förråd",
       "legal": "Cédula + stadsplaneringsintyg"

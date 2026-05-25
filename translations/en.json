@@ -22,7 +22,7 @@
     "copy_2": "From the property, the centre of Palma is a fifteen-minute drive, the airport twenty. The nearby towns of Santa Maria del Cami, Consell and Binissalem sit along a route lined with wineries and weekend markets. Schools, supermarkets and medical services are within Marratxi itself. It is the kind of location that feels genuinely rural yet remains effortlessly connected to the island's capital."
   },
   "features": {
-    "intro": "Built in classic Mallorcan style with a stone facade of piedra de Mares, exposed wooden beams and an atmospheric wood stove, the house covers 275 m² across two floors. The generous plot of over 6 800 m² includes fruit trees, a pergola with barbecue area, a separate garden house and sweeping views from a 70 m² terrace that takes in the mountains and, on clear days, the sea.",
+    "intro": "Built in classic Mallorcan style with a stone facade of piedra de Mares, exposed wooden beams and an atmospheric wood stove, the house covers 275 m² across two floors. The generous plot of over 6 800 m² includes fruit trees, a pergola with barbecue area and sweeping views from a 70 m² terrace that takes in the mountains and, on clear days, the sea.",
     "label": {
       "plot": "Plot",
       "built_area": "Constructed area",
@@ -30,7 +30,6 @@
       "bathrooms": "Bathrooms",
       "terrace": "Terrace",
       "style": "Style",
-      "heating": "Heating",
       "garden": "Garden",
       "garage": "Garage",
       "legal": "Legal status",
@@ -38,7 +37,6 @@
     },
     "value": {
       "style": "Traditional Mallorcan finca",
-      "heating": "Electric + wood stove",
       "garden": "Private — fruit trees, pergola",
       "garage": "Closed, 1 car + storage",
       "legal": "Cedula + urban planning cert."
