@@ -40,7 +40,8 @@ async function loadAndApply(lang) {
   if (!SUPPORTED.includes(lang)) lang = DEFAULT_LANG;
   if (!translations[lang]) {
     try {
-      const res = await fetch(`translations/${lang}.json`);
+      // cache-bust so text edits reach clients immediately (no hard-refresh needed)
+      const res = await fetch(`translations/${lang}.json?_=${Date.now()}`);
       translations[lang] = await res.json();
     } catch {
       console.warn(`i18n: failed to load ${lang}.json`);
