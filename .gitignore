@@ -1,0 +1,22 @@
+# OS junk
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Dependencies (defensive — repo is static, but never commit these)
+node_modules/
+.worktrees/
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Logs & temp
+*.log
+npm-debug.log*
+.cache/

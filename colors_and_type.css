@@ -18,9 +18,28 @@
   src: url("fonts/Raleway-Italic-VariableFont_wght.ttf") format("truetype-variations");
 }
 
-/* Raleway upright loaded from Google Fonts — user did not supply upright variable;
-   substitute flagged in README. Swap locally if/when a Raleway.ttf is added. */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&family=Noto+Sans:wght@300;400;500;600;700&display=swap");
+/* Fonts are self-hosted. Never load Raleway or Noto Sans from Google: an
+   @import placed after a @font-face is silently dropped by the browser, which
+   leaves the italic Raleway face as the only one of its family, so every title
+   renders italic. That is exactly what shipped on this site until 2026-09-05.
+   See _design-system/docs/plans/2026-08-13-self-host-google-fonts.md. */
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("fonts/Raleway-VariableFont_wght.ttf") format("truetype-variations");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("fonts/NotoSans-VariableFont_wdth_wght.ttf") format("truetype-variations");
+}
+
 
 @font-face {
   font-family: "Chilliner";
